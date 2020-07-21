@@ -9,7 +9,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 55,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -18,7 +19,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 45,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -27,7 +29,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "hungry",
 		sleep: "awake",
-		breathspm: 58
+		breathspm: 58,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -36,7 +39,8 @@ const data = [
 		faceup: "down",
 		emotiontype: "quiet",
 		sleep: "asleep",
-		breathspm: 45
+		breathspm: 45,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -45,7 +49,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -54,7 +59,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -63,7 +69,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -72,7 +79,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 49,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -81,7 +89,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 47,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -90,7 +99,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -99,7 +109,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -108,7 +119,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -117,7 +129,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -126,7 +139,8 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40,
+		temperature: 98
 	},
 	{
 		date: "July-17-2020",
@@ -135,15 +149,16 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 59,
+		temperature: 98
 	}
 ];
 
-const VolumeChart = props => {
+const TemperatureChart = props => {
 	return (
 		<AreaChart
 			width={400}
-			height={150}
+			height={100}
 			data={data}
 			margin={{
 				top: 10,
@@ -156,12 +171,12 @@ const VolumeChart = props => {
 			<Tooltip />
 			<Area
 				type="monotone"
-				dataKey="volume"
-				stroke="#8884d8"
-				fill="#8884d8"
+				dataKey="temperature"
+				stroke="#e69500"
+				fill="#ffc04d"
 			/>
 		</AreaChart>
 	);
 };
 
-export default VolumeChart;
+export default TemperatureChart;

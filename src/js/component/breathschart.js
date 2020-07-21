@@ -9,7 +9,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 55
 	},
 	{
 		date: "July-17-2020",
@@ -45,7 +45,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -54,7 +54,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -63,7 +63,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -72,7 +72,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 49
 	},
 	{
 		date: "July-17-2020",
@@ -81,7 +81,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 47
 	},
 	{
 		date: "July-17-2020",
@@ -90,7 +90,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -99,7 +99,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -108,7 +108,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -117,7 +117,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -126,7 +126,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 40
 	},
 	{
 		date: "July-17-2020",
@@ -135,7 +135,7 @@ const data = [
 		faceup: "Up",
 		emotiontype: "quiet",
 		sleep: "awake",
-		breathspm: 45
+		breathspm: 59
 	}
 ];
 
@@ -156,7 +156,7 @@ const BreathsChart = props => {
 			<Tooltip />
 			<Area
 				type="monotone"
-				dataKey="volume"
+				dataKey="breathspm"
 				stroke="#8884d8"
 				fill="#ff0000"
 			/>
