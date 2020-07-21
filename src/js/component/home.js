@@ -3,7 +3,7 @@ import VolumeChart from "./volumechart";
 import FaceUp from "./faceup";
 import EmotionChart from "./emotionchart";
 import BreathsChart from "./breathschart";
-import TemperatureChart from "./temperaturechart";
+
 //create your first component
 export function Home() {
 	return (
@@ -11,8 +11,7 @@ export function Home() {
 			<div>
 				<h2>Past Monitor from July 17th </h2>
 			</div>
-			<h3> Temperature </h3>
-			<TemperatureChart />
+
 			<h3> Face up? </h3>
 			<FaceUp />
 			<h3> Cry type or asleep? </h3>
